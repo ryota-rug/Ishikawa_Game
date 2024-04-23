@@ -1,0 +1,10 @@
+diff a/HEW_BaseMr2/DX22Base/DX22Base/DX22Base.vcxproj b/HEW_BaseMr2/DX22Base/DX22Base/DX22Base.vcxproj	(rejected hunks)
+@@ -78,7 +78,7 @@
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+     <LinkIncremental>true</LinkIncremental>
+-    <IncludePath>ここを変更したら必ず元に戻してください（右上の「Hunkを破棄」をクリック）;$(IncludePath)</IncludePath>
++    <IncludePath>C:\Users\s-yuy\Desktop\GIT_HEWProject\HEW_BaseMr2\DX22Base\DX22Base;$(IncludePath)</IncludePath>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+     <LinkIncremental>false</LinkIncremental>

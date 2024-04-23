@@ -1,0 +1,18 @@
+diff a/HEW_BaseMr2/DX22Base/DX22Base/Game3D.cpp b/HEW_BaseMr2/DX22Base/DX22Base/Game3D.cpp	(rejected hunks)
+@@ -70,10 +70,16 @@
+ 	//�ŏ��̃V�[���̓ǂݍ���
+ 	g_pSceneData = nullptr;
+ 	Scene_Change(SCENE_GAME);
++
++	Effect_Manager::Effect_Init();
++	Effect_Manager::Add_Effect("Beam",u"Assets/Effect/Laser01.efkefc");
++
+ }
+ 
+ Game3D::~Game3D()
+ {
++	Effect_Manager::Effect_Uninit();
++
+ 	delete g_pSceneData; //���݂̃V�[���f�[�^��폜
+ 	delete g_pLoadScene; //���[�h�����̃f�[�^��폜
+ 

@@ -1,0 +1,10 @@
+diff a/HEW_BaseMr2/DX22Base/DX22Base/Bedrock.cpp b/HEW_BaseMr2/DX22Base/DX22Base/Bedrock.cpp	(rejected hunks)
+@@ -11,7 +11,7 @@
+ 	m_Type = BLOCK_BEDROCK;
+ 	m_HP = 9999;
+ 	m_DEF = 100;
+-	ADDMODEL_SENDDATA("Bedrock", "Assets/Block/ganban.fbx");
++	ADDMODEL_SENDDATA("Bedrock", "Assets/Block/ganban/ganban3.fbx");
+ }
+ 
+ CBedrock::~CBedrock()
